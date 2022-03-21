@@ -1,0 +1,36 @@
+article {
+  width: 33%;
+  margin: 8px auto;
+  padding: 0;
+  font-size: 1rem; /* 12px */
+}
+article div {
+  height: 46px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+article img {
+  height: 42px;
+  width: auto;
+}
+article h4 {
+  font-size: 1.375em; /* 22px */
+  font-weight: 400;
+  color: #4a4a4a;
+}
+article p {
+  width: 90%;
+  font-size: 0.75em; /* 12px */
+  color: #999;
+}
+
+@media screen and (max-width: 620px) {
+  /* NEWS */
+  article h4 {
+    font-size: 1em; /* 22px */
+    font-weight: 400;
+    color: #4a4a4a;
+  }
+}

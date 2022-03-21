@@ -1,0 +1,11 @@
+#news {
+  position: relative;
+  top: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  padding: 24px;
+  background-color: #fff;
+}

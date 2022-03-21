@@ -1,0 +1,146 @@
+footer {
+  position: relative;
+  top: 24px;
+  left: -20px;
+  right: 0;
+  width: 100vw;
+  padding: 0 20px;
+  background: #000;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+}
+#ft-col-container {
+  position: relative;
+  left: -20px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  border-bottom: 1px solid #666;
+  color: #666;
+}
+#ft-col-container div {
+  width: 20%;
+}
+
+/** 1 */
+#ft-col-1 h5 {
+  font-size: 1.125em; /* 18px */
+}
+#ft-col-1 article {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+#ft-col-1 article h6 {
+  margin: 0 auto;
+  margin-bottom: 8px;
+  font-size: 0.8125em; /* 13px */
+}
+#ft-col-1 article p.meta {
+  font-size: 0.6875em; /* 11px */
+}
+#ft-col-1 article p.excerpt {
+  line-height: 1.1rem;
+  font-size: 0.75em; /* 12px */
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+#ft-col-1 article p.readmore {
+  text-align: right;
+}
+#ft-col-1 p.readmore a {
+  text-decoration: none;
+  color: #ff9900;
+  font-size: 0.75em; /* 12px */
+}
+#ft-col-1 p.readmore a:hover {
+  text-decoration: #ff9900 underline;
+}
+
+/** 2 */
+#ft-col-2 h5 {
+  font-size: 1.125em; /* 18px */
+}
+#ft-col-2 ul {
+  padding: 0;
+  list-style-type: none;
+}
+#ft-col-2 ul hr {
+  border: 1px solid #333;
+}
+#ft-col-2 ul li {
+  font-size: 0.75em; /* 12px */
+}
+#ft-col-2 ul li a {
+  text-decoration: none;
+  color: #ff9900;
+}
+#ft-col-2 ul li a:hover {
+  text-decoration: #ff9900 underline;
+}
+
+/** 3 */
+#ft-col-3 h5 {
+  font-size: 1.125em; /* 18px */
+}
+#ft-col-3 p {
+  padding: 0;
+  font-size: 0.75em; /* 12px */
+}
+
+/** 4 */
+#ft-col-4 h5 {
+  font-size: 1.125em; /* 18px */
+}
+#ft-col-4 ul {
+  padding: 0;
+  list-style-type: none;
+}
+#ft-col-4 ul li {
+  width: 70%;
+  margin: 8px auto 8px 0;
+  border-bottom: 1px solid #666;
+}
+
+#ft-col-4 ul li:hover {
+  color: #ff9900;
+  cursor: pointer;
+}
+
+#ft-col-4 ul li i {
+  font-size: 2em; /* 32px */
+}
+#ft-col-4 ul li p {
+  font-size: 0.75em; /* 12px */
+  margin-left: 8px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.rs-icons {
+  font-size: 20px;
+}
+
+/** Subfooter (Crédits) */
+#sub-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 57px;
+  width: 95vw;
+  margin: 0;
+  padding: 0;
+  font-size: 0.75em; /* 12px */
+  color: #666;
+}
+
+@media screen and (max-width: 620px) {
+  /* FOOTER */
+  #ft-col-container {
+    flex-direction: column;
+  }
+  #ft-col-container div {
+    width: 90%;
+  }
+}

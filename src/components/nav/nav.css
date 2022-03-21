@@ -1,0 +1,30 @@
+nav {
+  height: 40px;
+  border-bottom: 1px solid #666;
+  border-top: 1px solid #666;
+  color: #666;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 16px;
+  padding: 0;
+  font-size: 0.75em; /* 12px */
+  text-transform: uppercase;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 620px) {
+  /* NAV */
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 16px;
+    padding: 0;
+    font-size: 0.68rem; /* 12px */
+    text-transform: uppercase;
+    list-style-type: none;
+  }
+}

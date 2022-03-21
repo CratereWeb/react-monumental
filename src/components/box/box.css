@@ -1,0 +1,40 @@
+figure {
+  max-width: 30%;
+  justify-self: stretch;
+  margin: 0;
+  padding: 0;
+  background: #161616;
+}
+figure img {
+  max-width: 100%;
+}
+figure figcaption {
+  height: 62px;
+  align-self: flex-end;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.25em; /* 20px */
+  line-height: inherit;
+  color: #ff9900;
+}
+
+@media screen and (max-width: 620px) {
+  /* GALLERY */
+  figure figcaption {
+    height: 62px;
+    align-self: flex-end;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1rem; /* 20px */
+    line-height: inherit;
+    color: #ff9900;
+  }
+}
